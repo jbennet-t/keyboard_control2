@@ -1,0 +1,40 @@
+[0.255s] Invoking command in '/home/jordan/ros2_dev_ws/src/keyboard_control2': PYTHONPATH=/home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2 build --build-base /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/build install --prefix /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2 --record /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/install.log --single-version-externally-managed
+[0.454s] running egg_info
+[0.454s] creating /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info
+[0.454s] writing /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/PKG-INFO
+[0.455s] writing dependency_links to /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/dependency_links.txt
+[0.455s] writing entry points to /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/entry_points.txt
+[0.455s] writing requirements to /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/requires.txt
+[0.455s] writing top-level names to /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/top_level.txt
+[0.456s] writing manifest file '/home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/SOURCES.txt'
+[0.482s] reading manifest file '/home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/SOURCES.txt'
+[0.483s] writing manifest file '/home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/SOURCES.txt'
+[0.483s] running build
+[0.484s] running build_py
+[0.484s] creating /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/build
+[0.484s] creating /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/build/lib
+[0.484s] creating /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/build/lib/keyboard_control2
+[0.484s] copying keyboard_control2/keyboard_input_alt2.py -> /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/build/lib/keyboard_control2
+[0.484s] copying keyboard_control2/__init__.py -> /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/build/lib/keyboard_control2
+[0.484s] copying keyboard_control2/keyboard_input2.py -> /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/build/lib/keyboard_control2
+[0.485s] running install
+[0.485s] running install_lib
+[0.486s] creating /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages/keyboard_control2
+[0.486s] copying /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/build/lib/keyboard_control2/keyboard_input_alt2.py -> /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages/keyboard_control2
+[0.486s] copying /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/build/lib/keyboard_control2/__init__.py -> /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages/keyboard_control2
+[0.486s] copying /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/build/lib/keyboard_control2/keyboard_input2.py -> /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages/keyboard_control2
+[0.487s] byte-compiling /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages/keyboard_control2/keyboard_input_alt2.py to keyboard_input_alt2.cpython-38.pyc
+[0.488s] byte-compiling /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages/keyboard_control2/__init__.py to __init__.cpython-38.pyc
+[0.488s] byte-compiling /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages/keyboard_control2/keyboard_input2.py to keyboard_input2.cpython-38.pyc
+[0.489s] running install_data
+[0.490s] creating /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/share/ament_index
+[0.490s] creating /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/share/ament_index/resource_index
+[0.490s] creating /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/share/ament_index/resource_index/packages
+[0.490s] copying resource/keyboard_control2 -> /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/share/ament_index/resource_index/packages
+[0.490s] copying package.xml -> /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/share/keyboard_control2
+[0.490s] running install_egg_info
+[0.491s] Copying /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info to /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages/keyboard_control2-1.0.0-py3.8.egg-info
+[0.492s] running install_scripts
+[0.507s] Installing keyboard_input2 script to /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/keyboard_control2
+[0.507s] writing list of installed files to '/home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/install.log'
+[0.526s] Invoked command in '/home/jordan/ros2_dev_ws/src/keyboard_control2' returned '0': PYTHONPATH=/home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2 build --build-base /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/build install --prefix /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2 --record /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/install.log --single-version-externally-managed

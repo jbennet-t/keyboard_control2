@@ -1,0 +1,3 @@
+[console_scripts]
+keyboard_input_alt2 = keyboard_control2.keyboard_input_alt2:main
+

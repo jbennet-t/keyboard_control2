@@ -1,0 +1,19 @@
+running egg_info
+writing /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/PKG-INFO
+writing dependency_links to /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/dependency_links.txt
+writing entry points to /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/entry_points.txt
+writing requirements to /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/requires.txt
+writing top-level names to /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/top_level.txt
+reading manifest file '/home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/SOURCES.txt'
+writing manifest file '/home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages/keyboard_control2-1.0.0-py3.8.egg-info' (and everything under it)
+Copying /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info to /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/python3.8/site-packages/keyboard_control2-1.0.0-py3.8.egg-info
+running install_scripts
+Installing keyboard_input_alt2 script to /home/jordan/ros2_dev_ws/src/keyboard_control2/install/keyboard_control2/lib/keyboard_control2
+writing list of installed files to '/home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/install.log'
