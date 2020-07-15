@@ -6,7 +6,7 @@
 
 
 import rclpy
-from rclpy.qos import qos_profile_default
+#from rclpy.qos import qos_profile_default
 
 import sys #for exiting purposes
 import getch #theoretically gets keyboard input. need pip3 to install
@@ -63,15 +63,15 @@ def velocityOut(speed,turn): #for printing/getting speed & turn angle
 
 
 def keyboard_input():
-    speed = rclpy.get_param("~speed", 0.5) #default speed val
-    turn = rclpy.get_param("~turn", 1.0) #default turn val
+    speed = 0.5 #default speed val
+    turn = 1.0 #default turn val
     x = 0
     y = 0
     z = 0
     th = 0
     status = 0
 
-    while not rclpy.is_shutdown():
+    while (1):
         input = get_keys()
         if(input == 1): #up
             x = 1
@@ -140,7 +140,7 @@ def main(args=None):
 
     node = rclpy.create_node('keyboard_input2')
 
-    pub = rclpy.create_publisher(Twist, 'cmd_vel', qos_profile_default)
+    pub = node.create_publisher(Twist, 'cmd_vel', 10)
 
     print(directionInfo)
     keyboard_input()
