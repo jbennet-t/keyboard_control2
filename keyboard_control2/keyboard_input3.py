@@ -31,28 +31,28 @@ def main(args=None):
 
 
     def get_keys(): #gets keyboard input
-        key = 0
+        key = ''
         k = ord(getch.getch()) #converts keypress to ord value
         if (k==119):
-            key = 1 #up
+            key = 'up' #up
         elif (k==115):
-            key = 2 #down
+            key = 'down' #down
         elif (k==97):
-            key = 3 #left
+            key = 'left' #left
         elif (k==100):
-            key = 4 #right
+            key = 'right' #right
         elif (k==113):
-            key = 5 #turn left and forward
+            key = 'left_fwd' #turn left and forward
         elif (k==101):
-            key = 6 #turn right and forward
+            key = 'right_fwd' #turn right and forward
         elif (k==114):
-            key = 7 #accelerate
+            key = 'accel' #accelerate
         elif (k==116):
-            key = 8 #deccelerate
+            key = 'deccel' #deccelerate
         elif (k==27):
             sys.exit("Exited Progam")
         else:
-            key = 0
+            key = ''
         #rospy.loginfo(str(key)) #write val to terminal
         return key
 
@@ -72,43 +72,43 @@ def main(args=None):
 
         while (1):
             input = get_keys()
-            if(input == 1): #up
+            if(input == 'up'): #up
                 x = 1
                 y = 0
                 z = 0
                 th = 0
-            elif(input == 2): #down
+            elif(input == 'down'): #down
                 x = -1
                 y = 0
                 z = 0
                 th = 0
-            elif(input == 3): #left
+            elif(input == 'left'): #left
                 x = 0
                 y = 0
                 z = 0
                 th = 1
-            elif(input == 4): #right
+            elif(input == 'right'): #right
                 x = 0
                 y = 0
                 z = 0
                 th = -1
-            elif(input == 5): #left + forward
+            elif(input == 'left_fwd'): #left + forward
                 x = 1
                 y = 0
                 z = 0
                 th = 1
-            elif(input == 6): #right + forward
+            elif(input == 'right_fwd'): #right + forward
                 x = 1
                 y = 0
                 z = 0
                 th = -1
-            elif(input == 7): #accelerate by 10%
+            elif(input == 'accel'): #accelerate by 10%
                 x = 0
                 y = 0
                 z = 0
                 th = 0
                 speed += 0.1
-            elif(input == 8): #deccelerate by 10%
+            elif(input == 'deccel'): #deccelerate by 10%
                 x = 0
                 y = 0
                 z = 0
