@@ -1,6 +1,6 @@
 # keyboard_control2
 ----------------------------------------------------------------------------------------------------------
-_Note: This is a modified version of keyboard_control developed for ROS1 Noetic, and ported to ROS2 Foxy._
+_Note: This is a modified version of keyboard_control developed for ROS1 Noetic, and ported to ROS2 Foxy.
 
 _Original: https://github.com/jbennet-t/keyboard_control
 
