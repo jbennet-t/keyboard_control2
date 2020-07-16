@@ -27,7 +27,10 @@ def main(args=None):
     rclpy.init(args=args)
 
     node = rclpy.create_node('keyboard_input3')
-    publisher = node.create_publisher(Twist, 'turtle1/cmd_vel', 10)
+    pub = node.create_publisher(Twist, 'cmd_vel', 10)
+
+    print(directionInfo)
+    keyboard_input()
 
 
     def get_keys(): #gets keyboard input
@@ -127,17 +130,12 @@ def main(args=None):
             twist.angular.x = 0.0
             twist.angular.y = 0.0
             twist.angular.z = th*turn
-            publisher.publish(twist)
+            pub.publish(twist)
             print(velocityOut(speed,twist.angular.z)) #write speed/angle to terminal
 
-    print(directionInfo)
-    keyboard_input()
 
     rclpy.spin(node)
-
-
-    node.destroy_node()
-    rclpy.shutdown()
+    keyboard_input()
 
 if __name__ == '__main__':
     try:

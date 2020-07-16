@@ -11,6 +11,7 @@ setup.py
 /home/jordan/ros2_dev_ws/src/keyboard_control2/build/keyboard_control2/keyboard_control2.egg-info/zip-safe
 keyboard_control2/__init__.py
 keyboard_control2/keyboard_input2.py
+keyboard_control2/keyboard_input3.py
 keyboard_control2/keyboard_input_alt2.py
 resource/keyboard_control2
 test/test_copyright.py

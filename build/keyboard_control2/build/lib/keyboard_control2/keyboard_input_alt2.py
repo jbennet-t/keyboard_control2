@@ -6,6 +6,7 @@
 
 
 import rclpy
+from rclpy.node import Node
 
 import sys #for exiting purposes
 import getch #theoretically gets keyboard input. need pip3 to install
@@ -35,9 +36,6 @@ class Keyboard_Input(Node):
     def __init__(self):
         super().__init__('keyboard_input_alt2')
         self.publisher_ = self.create_publisher(Twist, 'cmd_vel', 10)
-        timer_period = 0.5  # seconds
-        self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.i = 0
 
     def get_keys(): #gets keyboard input
         key = 0
@@ -143,17 +141,16 @@ class Keyboard_Input(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    keyboard_input = Keyboard_Input()
+    node = Keyboard_Input()
 
-    rclpy.spin(minimal_publisher)
-
-    print(directionInfo)
-    keyboard_input()
+    rclpy.spin(node)
 
 
 
 if __name__ == '__main__':
     try:
+        print(directionInfo)
         main()
+        keyboard_input()
     except:
         print(e)
