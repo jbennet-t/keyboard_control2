@@ -22,7 +22,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'keyboard_input_alt2 = keyboard_control2.keyboard_input_alt2:main'
+            'keyboard_input3 = keyboard_control2.keyboard_input3:main'
         ],
     },
 )
