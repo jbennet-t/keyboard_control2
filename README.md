@@ -7,7 +7,7 @@ _Original: https://github.com/jbennet-t/keyboard_control_
 ----------------------------------------------------------------------------------------------------------
 
 
-This is a basic keyboard teleoperation/control module built for ROS2 Foxy. Interfaces with Twist in ROS2, and publishes to turtlesim1/cmd_vel for simple robot control. If you want to publish to the standard /cmd_vel for more genral robot control, change the line ```publisher = node.create_publisher(Twist, 'turtle1/cmd_vel', 10)``` to ```publisher = node.create_publisher(Twist, 'cmd_vel', 10)```
+This is a basic keyboard teleoperation/control module built for ROS2 Foxy. Interfaces with Twist in ROS2, and publishes to turtlesim1/cmd_vel for simple robot control. If you want to publish to the standard /cmd_vel for more general robot control, change the line ```publisher = node.create_publisher(Twist, 'turtle1/cmd_vel', 10)``` to ```publisher = node.create_publisher(Twist, 'cmd_vel', 10)```
 
 ### How to Install
 1. cd to the src folder in your ros2 workspace, and clone this repository there (assuming you have ros2 and git installed)
