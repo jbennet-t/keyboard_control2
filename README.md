@@ -26,5 +26,5 @@ This is a basic keyboard teleoperation/control module built for ROS2 Foxy. Inter
 
 
 
-Note: you may have to install pip3 and if it is not already part of your python install
+Note: you may have to install pip3 if it is not already part of your python install
 * pip install: https://pip.pypa.io/en/stable/installing/
